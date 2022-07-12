@@ -1,0 +1,22 @@
+{
+  "name": "cvs",
+  "version": "1.0.0",
+  "description": "Ping CVS Vaccinations",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan McDonald",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "moment": "^2.29.1",
+    "node-cache": "^5.1.2",
+    "sendmail": "^1.6.1"
+  },
+  "devDependencies": {
+    "node-mailer": "^0.1.1"
+  }
+}
